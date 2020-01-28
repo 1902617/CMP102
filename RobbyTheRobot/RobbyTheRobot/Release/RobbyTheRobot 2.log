@@ -1,0 +1,8 @@
+﻿  Tut3_7.cpp
+C:\Users\jamie\source\repos\Robby\RobbyTheRobot\RobbyTheRobot\Tut3_7.cpp(7,12): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating code
+  12 of 12 functions (100.0%) were compiled.
+    5 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  RobbyTheRobot.vcxproj -> C:\Users\jamie\source\repos\Robby\RobbyTheRobot\Release\RobbyTheRobot.exe
