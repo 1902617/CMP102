@@ -3,6 +3,12 @@
 
 Account::Account()
 {
+
+}
+
+Account::Account(float bal)
+{
+	balance = bal;
 }
 
 Account::~Account()

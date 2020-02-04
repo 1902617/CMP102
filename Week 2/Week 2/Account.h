@@ -4,6 +4,7 @@ class Account
 {
 public:
 	Account();
+	Account(float);
 	~Account();
 
 private:
