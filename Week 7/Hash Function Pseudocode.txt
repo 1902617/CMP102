@@ -1,0 +1,28 @@
+Hash Function Pseudocode:
+
+1) Ask user for Username and Password.
+	1.1) WHILE 	no user input.
+	1.2) 		wait for user input.
+	1.3) END WHILE
+
+2) Compare name and password with stored information.
+	2.1) Compare the given users username with known names.
+	2.2) IF		the username is valid
+	2.3) 		check if the corresponding hash code from the
+			password is the same.
+	2.4) ELSE 	Set a variable of authentication to false.
+
+3) Generate output based on the result of the information check.
+	3.1) IF 	The authentication variable is true.
+	3.2) 		Display welcome message.test
+	3.3) ELSE 	Display error message.
+
+
+
+
+passwords:			usernames:
+lululul	//12*4+21+3 	= 48  	test1			
+Test	//20*2+5+19 	= 64 	jamie_99
+testA	//^+1 		= 65	BillyBob
+killme	//11+9+12*2+13	= 45	Bigrobby
+zodiAc	//26+15+4+9+1+3 = 58	jemimaHethelstein
