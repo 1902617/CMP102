@@ -8,13 +8,14 @@ class UserInterface
 {
 private:
 	std::vector<Line*> display;
-	int initialDisplaySize;
+	int currentDisplaySize;
 	bool mode;
 
 public:
 	UserInterface();
 	~UserInterface();
 
+	void initialSetup();
 	void draw();
 	void addLine(std::string str);
 	void switchMode(bool b);

@@ -1,6 +1,5 @@
 #include "Player.h"
 
-
 Player::Player(std::string name, int chance)
 {
 	this->name = name;

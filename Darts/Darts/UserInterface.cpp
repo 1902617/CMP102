@@ -2,25 +2,29 @@
 
 UserInterface::UserInterface()
 {
+	initialSetup();
+}
+
+UserInterface::~UserInterface()
+{
+
+}
+
+// Initial setup will allow me to easily reload the object to replay the simulation.
+void UserInterface::initialSetup()
+{
 	system("CLS");
 	display.push_back(new Line("#######################"));
 	display.push_back(new Line("   --- Darts 501 ---"));
 	display.push_back(new Line(" "));
 	display.push_back(new Line("      - Options - "));
 	display.push_back(new Line(" 1 - Run Game "));
-	display.push_back(new Line(" 2 - Reset UI"));
-	display.push_back(new Line(" 3 - Quit Game "));
-	display.push_back(new Line(" "));
+	display.push_back(new Line(" 2 - Quit Game"));
 
-	initialDisplaySize = 8;
+	currentDisplaySize = 6;
 
 	// Mode determines what state the ui will be in, true == main menu, false == game menu.
 	mode = true;
-}
-
-UserInterface::~UserInterface()
-{
-
 }
 
 //When called, clear console and display all active lines.
@@ -67,7 +71,7 @@ void UserInterface::switchMode(bool b)
 //Resets the display main menu array to its default.
 void UserInterface::reset()
 {
-	for (int i = display.size(); i > initialDisplaySize; i--)
+	for (int i = display.size(); i > currentDisplaySize; i--)
 	{
 		display.pop_back();
 	}

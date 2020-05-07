@@ -1,0 +1,11 @@
+﻿  Game.cpp
+E:\Git Repos\CMP102\Darts\Darts\Game.cpp(35,19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Player.cpp
+  UserInterface.cpp
+E:\Git Repos\CMP102\Darts\Darts\UserInterface.cpp(74,33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  12 of 180 functions ( 6.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    7 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Darts.vcxproj -> E:\Git Repos\CMP102\Darts\x64\Release\Darts.exe
